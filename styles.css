@@ -186,7 +186,7 @@ h1 {
   fill: var(--surface);
   stroke: none;
   font-family: "PingFang SC", "Microsoft YaHei", "Segoe UI", Arial, sans-serif;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 900;
   letter-spacing: 0;
 }
