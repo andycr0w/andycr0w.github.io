@@ -9,6 +9,7 @@
   --peach: #ffd4c7;
   --lemon: #f4e7a9;
   --lilac: #d8d0f2;
+  --xhs-red: #ff3f63;
   --steam: #d7e0ec;
   --blog-blue: #006dcc;
   --markdown-cream: #f6f4ef;
@@ -171,6 +172,14 @@ h1 {
 
 .accent-lilac .icon-wrap {
   background: var(--lilac);
+}
+
+.accent-xhs .icon-wrap {
+  background: var(--xhs-red);
+}
+
+.accent-xhs .icon-wrap svg {
+  stroke: var(--surface);
 }
 
 .accent-lemon .icon-wrap {
