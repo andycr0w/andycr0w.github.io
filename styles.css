@@ -182,6 +182,15 @@ h1 {
   stroke: var(--surface);
 }
 
+.xhs-mark text {
+  fill: var(--surface);
+  stroke: none;
+  font-family: "PingFang SC", "Microsoft YaHei", "Segoe UI", Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 900;
+  letter-spacing: 0;
+}
+
 .accent-lemon .icon-wrap {
   background: var(--lemon);
 }
