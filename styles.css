@@ -169,7 +169,9 @@ h1 {
 }
 
 .accent-steam .icon-wrap {
-  background: var(--steam);
+  border: 0;
+  border-radius: 0;
+  background: transparent;
 }
 
 .accent-lilac .icon-wrap {
@@ -188,7 +190,7 @@ h1 {
   fill: var(--surface);
   stroke: none;
   font-family: "PingFang SC", "Microsoft YaHei", "Segoe UI", Arial, sans-serif;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 900;
   letter-spacing: 0;
 }
@@ -239,28 +241,10 @@ h1 {
   stroke-linejoin: round;
 }
 
-.steam-mark {
-  fill: none;
-}
-
-.steam-mark .steam-disc {
-  fill: none;
-  stroke: var(--surface);
-}
-
-.steam-mark .steam-arm,
-.steam-mark .steam-node.outer {
-  fill: var(--surface);
-  stroke: var(--surface);
-}
-
-.steam-mark .steam-arm {
-  stroke-width: 8;
-}
-
-.steam-mark .steam-node.inner {
-  fill: var(--steam);
-  stroke: var(--steam);
+.accent-steam .icon-wrap .steam-mark {
+  display: block;
+  width: 76px;
+  height: 76px;
 }
 
 .card-meta {
