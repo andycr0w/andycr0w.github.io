@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>AndyCrow</title>
+  <rect width="64" height="64" rx="14" fill="#bfe8d4"/>
+  <path fill="#273237" d="M8 50 27 11c1.4-2.8 5.4-2.8 6.8.1L51 50H39.5l-3.8-9H21.3l-4 9H8Zm17.1-18h7l-3.4-8.5-3.6 8.5Z"/>
+  <path fill="#4c7f8f" d="M35 17c8.4 2.2 14.9 7.6 20 15.6l-9.2-1.9 7.1 7.4-10.3-3.4 4.6 8.2-9.1-5.8L35 17Z"/>
+  <circle cx="46.5" cy="25.5" r="2" fill="#f4e7a9"/>
+</svg>
